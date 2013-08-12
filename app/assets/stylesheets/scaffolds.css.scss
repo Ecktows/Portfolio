@@ -1,6 +1,5 @@
 body {
   color:#fff;
-  background-color: #000;
   background-image:url("bk2.png");
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -19,30 +18,30 @@ a, a:visited {
 	color:#54a6de;
 }
 a:hover{
-	text-decoration:underline;
+  text-decoration:underline;
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 .container:before,
 .container:after {
-  display: table;
+  display:table;
   content: " ";
 }
 
 .container:after {
-  clear: both;
+  clear:both;
 }
 
 .container:before,
 .container:after {
-  display: table;
+  display:table;
   content: " ";
 }
 
 .container:after {
-  clear: both;
+  clear:both;
 }
 

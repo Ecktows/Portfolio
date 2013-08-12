@@ -1,7 +1,6 @@
 .na {
   margin-right: auto;
   margin-left: auto;
-  background-color:;
   height: 60px;
   width: 770px;
 }
@@ -12,7 +11,6 @@ height:70px;
 
 }
 ul li {
-background:;
 list-style: none;
 height: 40px;
 float:left;
@@ -40,19 +38,19 @@ transition: .2s all linear;
 }
 
 li:nth-child(1) a {
-border-color: #636393;
+border-color:#636393;
 }
 li:nth-child(2) a {
-border-color: #B5222D;
+border-color:#B5222D;
 }
 li:nth-child(3) a {
-border-color: #D4953C;
+border-color:#D4953C;
 }
 li:nth-child(4) a {
-border-color: #609491;
+border-color:#609491;
 }
 li:nth-child(5) a {
-border-color: #87A248;
+border-color:#87A248;
 }
 li:nth-child(1) a:hover {
 border-bottom: 35px solid #636393;

@@ -1,11 +1,6 @@
-body {
-  font-weight: 300;
-}
 
-a:hover,
-a:focus {
-  text-decoration: none;
-}
+
+
 
 h2 {
   text-align: center;
@@ -19,10 +14,10 @@ h2 {
 .jumbotron {
   position: relative;
   font-size: 16px;
-  color: #fff;
-  color: rgba(255,255,255,.75);
+  color:#fff;
+  color:rgba(255,255,255,.75);
   text-align: center;
-  background-color: #563d7c;
+  background-color:#563d7c;
   border-radius: 0;
 }
 .jumbotron .container {
@@ -46,7 +41,7 @@ h2 {
   font-size: inherit;
   font-weight: 500;
   color: #fff; /* redeclare to override the `.jumbotron a` */
-  background-color: transparent;
+  background-color:transparent;
   border-color: #fff;
   border-color: rgba(255,255,255,.5);
   transition: all .1s ease-in-out;
@@ -54,8 +49,8 @@ h2 {
 .btn-outline:hover,
 .btn-outline:active {
   color: #563d7c;
-  background-color: #fff;
-  border-color: #fff;
+  background-color:#fff;
+  border-color:#fff;
 }
 
 .jumbotron:after {

@@ -1,4 +1,12 @@
 Portfolio::Application.routes.draw do
+  resources :websites
+
+  root  'websites#index'
+  match '/signup',  to: 'websites#new',            via: 'get'
+  match '/about',  to: 'websites#new',            via: 'get'
+  match '/show',  to: 'websites#show',            via: 'get'
+  match '/new',  to: 'websites#ind',            via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

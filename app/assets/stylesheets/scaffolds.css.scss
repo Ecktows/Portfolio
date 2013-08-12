@@ -1,0 +1,48 @@
+body {
+  color:#fff;
+  background-color: #000;
+  background-image:url("bk2.png");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-image:center;  
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+a:hover{
+	text-decoration:underline;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+

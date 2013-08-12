@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Template</title>
+  <body> 
+      <div class="container">
+        <span class="glyphicon glyphicon-ok"></span>
+        <h3>Welcome to My Portfolio</h3>
+        <p>THe catogorys below are areas that I have worked within or went through education or learning at the moment.</p>
+        <%= link_to 'New Website', new_website_path %>
+      </div>
+    
+
+    <div class="container gallery">
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <h3>Projects</h3>
+          <p>This is a collection of websites and applications that I have made or had part in creating.</p>
+	  <a class="thumbnail" href="#" target="_blank">
+          
+          </a>
+        </div>
+
+        <div class="col-lg-4">
+          <h3>My Websites</h3>
+          <p>This a link to a showcase page for all the websites that I have created</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("websites.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+
+        <div class="col-lg-4"> 
+          <h3>My Apps</h3>
+          <p>Features a jumbotron for primary message and three supporting elements.</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("app.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-4"> 
+          <h3>My Business Site</h3>
+          <p>Pin a fixed-height footer to the bottom of the user's viewport.</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("folder.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+
+        <div class="col-lg-4"> 
+          <h3>My Skills</h3>
+          <p>Add a fixed navbar to the default sticky footer template.</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("folder.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+
+        <div class="col-lg-4">       
+          <h3>My Blog</h3>
+          <p>An interactive riff on the basic marketing site featuring a prominent carousel.</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("folder.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-4">          
+          <h3>My experemints</h3>
+          <p>Basic template for showcasing how the navbar works.</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("folder.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+
+        <div class="col-lg-4">         
+          <h3>Static top navbar</h3>
+          <p>Basic template for showcasing the static navbar variation.</p>
+          <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("folder.png", alt: "Projects"), '#' %>
+          </a>
+	</div>
+
+        <div class="col-lg-4">
+          <h3>Fixed top navbar</h3>
+          <p>Basic template for showcasing the fixed navbar variation.</p>
+	  <a class="thumbnail" href="#" target="_blank">
+          <%= link_to image_tag("folder.png", alt: "Projects"), '#' %>
+          </a>
+        </div>
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+  </body>
+</html>
+
+<%= link_to 'Back', websites_path %>
